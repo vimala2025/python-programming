@@ -1,0 +1,10 @@
+list1 = [1, 5, 9]
+list2 = [9, 2, 5]
+
+common = []
+
+for i in list1:
+    if i in list2 and i not in common:
+        common.append(i)
+
+print(common)
