@@ -1,0 +1,5 @@
+lst = [10, 20, 30, 40, 50]
+element = 30
+
+index = lst.index(element)     
+print("Index:", index)
