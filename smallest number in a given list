@@ -1,0 +1,9 @@
+lst = [5, 1, 9, 2, 0, -3, 7]
+
+smallest = lst[0]
+
+for num in lst:
+    if num < smallest:
+        smallest = num
+
+print("Smallest:", smallest)
